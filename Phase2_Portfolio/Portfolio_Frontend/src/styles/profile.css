@@ -1,0 +1,60 @@
+/* src/pages/Profile.css */
+.profile-container {
+  font-family: 'Segoe UI', sans-serif;
+  padding: 2rem;
+  background-color: #f5f7fa;
+  color: #333;
+  line-height: 1.6;
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+.profile-header {
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
+.profile-header h1 {
+  font-size: 2rem;
+  margin-bottom: 0.5rem;
+  color: #222;
+}
+
+.profile-header p {
+  font-size: 1rem;
+  color: #555;
+}
+
+.profile-details {
+  background-color: #fff;
+  padding: 1.5rem;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.05);
+  margin-bottom: 1.5rem;
+}
+
+.profile-details p {
+  margin-bottom: 0.75rem;
+  font-size: 1rem;
+}
+
+.profile-role-info {
+  font-size: 1rem;
+  color: #444;
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
+.profile-error,
+.profile-loading {
+  text-align: center;
+  font-size: 1rem;
+  color: red;
+  margin-top: 2rem;
+}
+
+.profile-footer {
+  text-align: center;
+  font-size: 0.9rem;
+  color: #777;
+}
