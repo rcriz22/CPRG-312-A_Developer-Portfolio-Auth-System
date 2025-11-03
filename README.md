@@ -25,14 +25,17 @@
   *Note:* Make sure you have cert/server.key and cert/server.cert for local HTTPS. \
 
 ## FRONTEND
-**Navigate to the frontend folder**
+**Navigate to the frontend folder** \
  `cd portfolio_frontend`
+ 
 **Install dependencies**
  `npm install`
+ 
 **Run the backend Server**
   `npm run dev`
+  
 **Visit the app**
-  `Open https://localhost:5173 in your browser \ 
+  `Open https://localhost:5173 in your browser` 
 
 ## AUTHENTICATION
 **Local Login:** Users can register and log in using email and password. Passwords are hashed using bcrypt. \
