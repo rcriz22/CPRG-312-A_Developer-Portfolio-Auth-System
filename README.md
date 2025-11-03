@@ -57,3 +57,23 @@
   - Roles are stored in the MongoDB user schema. 
   - JWTs include the user’s role. 
   - Middleware checks roles before granting access to protected routes.
+
+## LESSON-LEARNED
+**CSRF Protection:** Implementing csurf required careful coordination between frontend and backend, especially with cookies and token headers.
+
+**Token Management:** Balancing security and usability was tricky — I had to ensure tokens expired appropriately without frustrating users.
+
+**Rate Limiting:** Adding express-rate-limit helped prevent brute-force attacks but required tuning to avoid blocking legitimate users.
+
+**Password Reset Flow:** Debugging token generation and email delivery taught me the importance of schema design and error handling.
+
+**HTTPS in Dev:** Setting up local HTTPS with self-signed certs was essential for testing secure cookies and CSRF behavior.
+
+## DEPENDENCIES
+- Backend
+  - `express`, `mongoose`, `jsonwebtoken`, `bcrypt` \
+  - `passport`, `passport-google-oauth20` \
+  - `nodemailer`, `csurf`, `express-rate-limit`, `helmet`, `cookie-parser`, `dotenv` \
+- Frontend
+  - `react`, `react-dom`, `react-router-dom` \ 
+  - `vite`, `eslint`, `@vitejs/plugin-react`
