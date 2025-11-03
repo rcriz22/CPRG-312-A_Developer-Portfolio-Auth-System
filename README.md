@@ -28,13 +28,13 @@
 **Navigate to the frontend folder** \
  `cd portfolio_frontend`
  
-**Install dependencies**
+**Install dependencies** \
  `npm install`
  
-**Run the backend Server**
+**Run the backend Server** \
   `npm run dev`
   
-**Visit the app**
+**Visit the app** \
   `Open https://localhost:5173 in your browser` 
 
 ## AUTHENTICATION
