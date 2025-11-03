@@ -10,11 +10,11 @@
  `npm install` 
  
 **Create .env file** \
-  `JWT_SECRET=your_jwt_secret 
+  `JWT_SECRET=your_jwt_secret
   `REFRESH_SECRET=your_refresh_secret \
-  `GOOGLE_CLIENT_ID=your_client_id 
+  `GOOGLE_CLIENT_ID=your_client_id
   `GOOGLE_CLIENT_SECRET=your_client_secret \
-  `EMAIL_USER=your.email@gmail.com 
+  `EMAIL_USER=your.email@gmail.com
   `EMAIL_PASS=your_app_password \
   
 **Start MongoDB**\
