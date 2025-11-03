@@ -3,7 +3,7 @@
 ## Setup Repository
 ## BACKEND
 **Clone the Repository** \
-`git clone [Link]` \
+`git clone (https://github.com/rcriz22/CPRG-312-A_Developer-Portfolio-Auth-System.git)` \
 `cd portfolio_backend` 
   
 **Install dependencies** \
