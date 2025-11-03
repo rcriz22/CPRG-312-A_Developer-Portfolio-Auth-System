@@ -41,7 +41,7 @@
 **Local Login:** Users can register and log in using email and password. Passwords are hashed using bcrypt. \
 **Google OAuth:** Users can log in with their Google account via Passport.js.. \
 **Session Management:** \
-    - Access and refresh tokens are issued via JWT.
-    - Tokens are stored in HttpOnly cookies with Secure and SameSite=Strict flags.
-    - Refresh tokens allow seamless session renewal without re-authentication.
+    - Access and refresh tokens are issued via JWT. \
+    - Tokens are stored in HttpOnly cookies with Secure and SameSite=Strict flags. \
+    - Refresh tokens allow seamless session renewal without re-authentication. \
 **Password Reset:** Users can request a reset link via email (using Gmail App Passwords and Nodemailer). \
