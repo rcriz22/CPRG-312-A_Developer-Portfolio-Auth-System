@@ -3,7 +3,7 @@
 ## Setup Repository
 ## BACKEND
 **Clone the Repository** 
-  `git clone [Link]` 
+  `git clone [Link]` \
   `cd portfolio_backend` 
   
 **Install dependencies** 
