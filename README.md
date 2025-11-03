@@ -71,9 +71,9 @@
 
 ## DEPENDENCIES
 - Backend
-  - `express`, `mongoose`, `jsonwebtoken`, `bcrypt` \
-  - `passport`, `passport-google-oauth20` \
-  - `nodemailer`, `csurf`, `express-rate-limit`, `helmet`, `cookie-parser`, `dotenv` \
+  - `express`, `mongoose`, `jsonwebtoken`, `bcrypt` 
+  - `passport`, `passport-google-oauth20` 
+  - `nodemailer`, `csurf`, `express-rate-limit`, `helmet`, `cookie-parser`, `dotenv` 
 - Frontend
-  - `react`, `react-dom`, `react-router-dom` \ 
+  - `react`, `react-dom`, `react-router-dom` 
   - `vite`, `eslint`, `@vitejs/plugin-react`
