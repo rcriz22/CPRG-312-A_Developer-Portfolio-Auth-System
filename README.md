@@ -9,7 +9,7 @@
 **Install dependencies** \
  `npm install` 
  
-**Create .env file** \
+**Create .env file**
   `JWT_SECRET=your_jwt_secret \
   `REFRESH_SECRET=your_refresh_secret \
   `GOOGLE_CLIENT_ID=your_client_id \
