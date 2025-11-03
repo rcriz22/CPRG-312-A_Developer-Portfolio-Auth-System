@@ -47,13 +47,13 @@
 **Password Reset:** Users can request a reset link via email (using Gmail App Passwords and Nodemailer). \
 
 ## ROLE-BASED
-**Roles Defined:** User, Admin \ 
+**Roles Defined:** User, Admin 
 
-**Permissions:** \
-  - User: Can access general routes like profile, projects, and contact. \
-  - Admin: Has access to admin-only routes for managing users or content. \
+**Permissions:** 
+  - User: Can access general routes like profile, projects, and contact. 
+  - Admin: Has access to admin-only routes for managing users or content. 
   
-**Implementation:** \
-  - Roles are stored in the MongoDB user schema. \
-  - JWTs include the user’s role. \
+**Implementation:** 
+  - Roles are stored in the MongoDB user schema. 
+  - JWTs include the user’s role. 
   - Middleware checks roles before granting access to protected routes.
