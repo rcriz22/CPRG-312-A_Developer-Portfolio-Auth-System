@@ -22,7 +22,7 @@
   
 **Run the backend Server** \
   `node app.js` \
-  *Note:* Make sure you have cert/server.key and cert/server.cert for local HTTPS. \
+  *Note:* Make sure you have cert/server.key and cert/server.cert for local HTTPS. 
 
 ## FRONTEND
 **Navigate to the frontend folder** \
@@ -44,7 +44,7 @@
     - Access and refresh tokens are issued via JWT. \
     - Tokens are stored in HttpOnly cookies with Secure and SameSite=Strict flags. \
     - Refresh tokens allow seamless session renewal without re-authentication. \
-**Password Reset:** Users can request a reset link via email (using Gmail App Passwords and Nodemailer). \
+**Password Reset:** Users can request a reset link via email (using Gmail App Passwords and Nodemailer).
 
 ## ROLE-BASED
 **Roles Defined:** User, Admin 
