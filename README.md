@@ -4,7 +4,7 @@
 ## BACKEND
 **Clone the Repository**
   `git clone [Link]` \
-  `cd portfolio_backend`
+  `cd portfolio_backend` \
 **Install dependencies**
  `npm install`
 **Create .env file**
